@@ -1,0 +1,10 @@
+{
+  "dockerImageBuilder": "cimg/node:14.0",
+  "inputs": [
+    {
+      "label": "Zipcode: ",
+      "name": "zipcode",
+      "type": "text"
+    }
+  ]
+}
