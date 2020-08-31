@@ -1,0 +1,36 @@
+{
+  "dockerImageBuilder": "cimg/node:14.0",
+  "inputs": [
+    {
+      "label": "Clubhouse Workspace Token: ",
+      "name": "CLUBHOUSE_TOKEN",
+      "type": "CREDENTIAL_CLUBHOUSE_TOKEN"
+    },
+    {
+      "label": "Storie Name: ",
+      "name": "STORIE_NAME",
+      "type": "text"
+    },
+    {
+      "label": "Project number: ",
+      "name": "PROJECT_NUMBER",
+      "type": "text"
+    },
+    {
+      "label": "Description: ",
+      "name": "DESCRIPTION",
+      "type": "text"
+    },
+    {
+      "default": "feature",
+      "items": [
+        "feature",
+        "bug",
+        "chore"
+      ],
+      "label": "Type of Storie: ",
+      "name": "STORY_TYPE",
+      "type": "text"
+    }
+  ]
+}
