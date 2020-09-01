@@ -10,14 +10,6 @@ function Run(CLUBHOUSE_API_TOKEN, PROJECT_NUMBER, STORIE_NAME, DESCRIPTION, STOR
     axios.defaults.headers.common['Clubhouse-Token'] = CLUBHOUSE_API_TOKEN;
     axios.defaults.headers.post['Content-Type'] = 'application/json';
 
-    // axios.get('/stories')
-    // .then(response => {
-    //     console.log(response);
-    // })
-    // .catch(error => {
-    //     console.log(error);
-    // })
-
     axios.post('/stories',{
         name: STORIE_NAME,
         project_id: PROJECT_NUMBER,
@@ -30,11 +22,6 @@ function Run(CLUBHOUSE_API_TOKEN, PROJECT_NUMBER, STORIE_NAME, DESCRIPTION, STOR
     .catch(error => {
         console.log(error);
     })
-  
 }
-
-
-
-
 const formula = Run
 module.exports = formula

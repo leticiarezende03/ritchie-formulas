@@ -3,7 +3,7 @@
 ## command
 
 ```bash
-rit clubhouse set storie
+rit clubhouse get data leadtime
 ```
 
 ## description

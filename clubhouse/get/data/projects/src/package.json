@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cli-color": "^2.0.0",
+    "promises": "^0.2.5",
+    "save": "^2.4.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
